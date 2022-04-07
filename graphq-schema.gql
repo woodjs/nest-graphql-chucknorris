@@ -1,0 +1,25 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type JokeDTO {
+  id: ID!
+  icon_url: String!
+  url: String!
+  value: String!
+  categories: [String!]!
+  created_at: String!
+  updated_at: String!
+}
+
+type Query {
+  findAll: [JokeDTO!]!
+  findByFilters(input: JokeInput): [JokeDTO!]!
+}
+
+input JokeInput {
+  category: String
+  query: String
+  limit: Float
+  addFavorite: Boolean
+}
