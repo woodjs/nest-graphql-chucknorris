@@ -1,6 +1,7 @@
 # nest-graphql-chucknorris
 
-Приложение для получение шуток с https://api.chucknorris.io/ с использованием NestJS, TypeScript, GraphQL, postgreSQL + ORM Sequelize.
+Приложение для получение шуток с https://api.chucknorris.io/.
+Стек: NestJS, TypeScript, GraphQL, postgreSQL + ORM Sequelize.
 
 ## Установка и запуск проекта
 
